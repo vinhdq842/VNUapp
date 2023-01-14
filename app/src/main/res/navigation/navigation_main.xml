@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.quangvinh.vnuapp.ui.home.HomeFragment"
+        android:label="Hướng dẫn"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_myinfo"
+        android:name="com.quangvinh.vnuapp.ui.myinfo.MyInfoFragment"
+        android:label="Hồ sơ sinh viên"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_updateinfo"
+        android:name="com.quangvinh.vnuapp.ui.updateinfo.UpdateInfoFragment"
+        android:label="Cập nhật hồ sơ"
+        tools:layout="@layout/fragment_update" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.quangvinh.vnuapp.ui.schedule.ScheduleFragment"
+        android:label="Lịch thi"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.quangvinh.vnuapp.ui.help.HelpFragment"
+        android:label="Yêu cầu trợ giúp"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_mail"
+        android:name="com.quangvinh.vnuapp.ui.vnumail.VnuMailFragment"
+        android:label="Tài khoản email"
+        tools:layout="@layout/fragment_mail" />
+
+    <fragment
+        android:id="@+id/nav_myres"
+        android:name="com.quangvinh.vnuapp.ui.myresults.MyResultsFragment"
+        android:label="Kết quả học tập"
+        tools:layout="@layout/fragment_res" />
+
+    <!--
+    <fragment
+        android:id="@+id/nav_cpass"
+        android:name="com.quangvinh.vnuapp.ui.changepass.ChangePasswordFragment"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/fragment_changepass" />
+    -->
+    <fragment
+        android:id="@+id/nav_noti"
+        android:name="com.quangvinh.vnuapp.ui.noti.NotificationFragment"
+        android:label="Thông báo"
+        tools:layout="@layout/fragment_noti" />
+
+</navigation>

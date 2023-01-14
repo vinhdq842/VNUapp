@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">VNU App</string>
+    <string name="login_label">Đăng nhập</string>
+    <string name="msv_edit_label">Mã sinh viên:</string>
+    <string name="pass_edit_label">Mật khẩu:</string>
+    <string name="remem_ckbx_label">Nhớ mật khẩu</string>
+    <string name="nav_menu_hd">Hướng dẫn</string>
+    <string name="nav_menu_tb">Thông báo</string>
+    <string name="nav_menu_hssv">Hồ sơ sinh viên</string>
+    <string name="nav_menu_cnhs">Cập nhật hồ sơ</string>
+    <string name="nav_menu_kqht">Kết quả học tập</string>
+    <string name="nav_menu_lichthi">Lịch thi</string>
+    <string name="nav_menu_mail">Tài khoản email</string>
+    <string name="nav_menu_help">Trợ giúp</string>
+    <string name="nav_header_image">Navigation Header Image</string>
+    <string name="nav_header_id">18001218</string>
+    <string name="nav_header_name">Đặng Quang Vinh</string>
+    <string name="nav_header_email">quangvinh0842@gmail.com</string>
+    <string name="nav_header_major">63 Máy tính và khoa học thông tin</string>
+    <string name="main_menu_author">Về tác giả</string>
+    <string name="main_menu_feedback">Góp ý</string>
+    <string name="main_menu_logout">Đăng xuất</string>
+</resources>

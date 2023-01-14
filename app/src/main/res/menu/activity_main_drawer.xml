@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_menu_hd" />
+        <item
+            android:id="@+id/nav_noti"
+            android:title="@string/nav_menu_tb" />
+        <item
+            android:id="@+id/nav_myinfo"
+            android:title="@string/nav_menu_hssv" />
+        <item
+            android:id="@+id/nav_updateinfo"
+            android:title="@string/nav_menu_cnhs" />
+
+        <item
+            android:id="@+id/nav_myres"
+            android:title="@string/nav_menu_kqht" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="@string/nav_menu_lichthi" />
+        <item
+            android:id="@+id/nav_mail"
+            android:title="@string/nav_menu_mail" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/nav_menu_help" />
+
+        <!--
+        <item
+            android:id="@+id/nav_cpass"
+            android:title="Đổi mật khẩu" />
+         -->
+    </group>
+</menu>
